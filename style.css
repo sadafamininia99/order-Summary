@@ -1,0 +1,104 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Red Hat Display";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url(/images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 1rem;
+    background-color:  white;
+    max-width: 20rem;
+    gap: 20px;
+    padding: 2px;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    margin: 10px;
+}
+
+.card-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.img-container {
+    width: 100%;
+    border-radius: 10px;
+
+}
+
+.header-text {
+    margin-top: 20px;
+}
+
+.text {
+
+    text-align: center;
+    color: gray;
+    margin-bottom: 10px;
+}
+
+.annual-plan-sub {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    background: hsl(225, 100%, 98%);
+    width: 90%;
+    height: 90%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    height: 80px;
+}
+
+.annual-plan-sub img {
+    margin-left: .223rem;
+
+}
+a{
+    margin-left: 10px;
+}
+.annual{
+    font-weight: 700;
+}
+.count{
+    color: gray;
+}
+.submit{
+    background-color: darkblue;
+    color: white;
+    border: none;
+    width: 80%;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.cancel{
+    text-decoration: none;
+    cursor: pointer;
+}
