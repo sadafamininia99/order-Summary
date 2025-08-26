@@ -2,7 +2,7 @@ name: Daily Commit
 
 on:
   schedule:
-    - cron: "0 23 * * *"  # runs 06:00 UTC (08:00 Amsterdam in summer)
+    - cron: "50 7 * * *" # هر روز ساعت 11:20 صبح به وقت ایران
   workflow_dispatch:
 
 permissions:
